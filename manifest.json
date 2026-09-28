@@ -1,0 +1,13 @@
+{
+  "id": "artisan",
+  "name": "Artisan",
+  "description": "An arched hero photo, the maker's story on a paper panel and rounded product cards.",
+  "best_for": "Food, crafts, cosmetics and handmade goods",
+  "backend": "commerce",
+  "es": {
+    "name": "Artesanal",
+    "description": "Una foto en arco, la historia del taller en un panel de papel y tarjetas de producto redondeadas.",
+    "best_for": "Comida, artesanías, cosmética y productos hechos a mano"
+  },
+  "hero_compact": false
+}
