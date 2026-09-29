@@ -14,8 +14,8 @@ export function Home() {
         id: "hero",
         type: "hero",
         props: {
-          title: "Hecho a mano, hecho para ti",
-          subtitle: "Cosas sencillas y bien hechas, preparadas con calma en nuestro taller.",
+          title: "Hecho con cuidado, pensado para ti",
+          subtitle: "Cosas sencillas, elegidas con calma para acompañar tu día.",
           button_label: "Explorar la tienda",
           design: {
             variant: "split"
@@ -27,8 +27,8 @@ export function Home() {
         type: "rich_text",
         props: {
           eyebrow: "Nuestra historia",
-          title: "Hecho a mano, en pequeños lotes",
-          body: "Cada pieza pasa por nuestras manos antes de llegar a las tuyas. Preferimos hacer pocas cosas y hacerlas bien, sin prisa y con atención al detalle.",
+          title: "Pocas cosas, bien pensadas",
+          body: "Preferimos ofrecer pocas cosas y cuidar cada una, sin prisa y con atención al detalle.",
           button_label: "Conocer los productos",
           image_side: "left"
         }
@@ -37,7 +37,7 @@ export function Home() {
         id: "collection",
         type: "product_grid",
         props: {
-          title: "Del taller",
+          title: "Nuestros productos",
           chips: true,
           limit: 6,
           design: {
@@ -50,7 +50,7 @@ export function Home() {
         type: "rich_text",
         props: {
           eyebrow: "Sin prisa",
-          title: "Lo que se hace con las manos se nota, y se queda."
+          title: "Lo que se hace con cuidado se nota, y se queda."
         }
       }} />
     <Section section={{
@@ -60,12 +60,12 @@ export function Home() {
           title: "Preguntas frecuentes",
           items: [
             {
-              question: "¿Cuánto tarda el envío?",
-              answer: "Depende de tu ciudad: te damos la fecha estimada al confirmar el pedido."
+              question: "¿Cómo funcionan los envíos?",
+              answer: "Las condiciones de envío están en nuestra Política de compras, al pie de esta página."
             },
             {
-              question: "¿Puedo devolver un producto?",
-              answer: "Sí, según nuestra política de cambios y devoluciones."
+              question: "¿Cómo funcionan los cambios y devoluciones?",
+              answer: "Consulta nuestra política de Devoluciones y garantía, al pie de esta página."
             },
             {
               question: "¿Cómo puedo pagar?",
@@ -73,7 +73,7 @@ export function Home() {
             },
             {
               question: "¿Cada pieza es igual a la de la foto?",
-              answer: "Al ser hechas a mano, cada una puede variar un poco en color, forma o textura."
+              answer: "En la página de cada producto encuentras sus fotos y su descripción. Si tienes una duda sobre un detalle, resuélvela antes de confirmar tu pedido."
             }
           ]
         }
@@ -101,7 +101,7 @@ export function Product() {
         id: "suggested",
         type: "product_suggested",
         props: {
-          title: "Más del taller",
+          title: "También te puede gustar",
           limit: 4,
           design: {
             columns: 4
